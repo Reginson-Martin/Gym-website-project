@@ -1,0 +1,109 @@
+
+@font-face {
+  font-family:myFirstFont;
+  src: url(skyhawksuperital.ttf);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:myFirstFont;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    background-color: black;
+  }
+  
+  li a:hover {
+    background-color: #ffa94d;
+  }
+  .name{
+    float:left;
+    display: block;
+    font-size: 250%;
+    text-align: bottom;
+    padding: 16px 18px;
+    color:#ffff;
+  }
+  
+  body,html{
+    height: 100%;
+    margin: 0;
+  }
+  .background-image{
+    background-image:url("crossfit.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .parent {
+    display: flex;
+    justify-content: space-between;
+    height:60vh;
+    width:90vw;
+    flex-direction: row;
+  }
+
+  .quote-container{
+    text-align:left;
+   margin-top: 150px;
+   padding-left: 30px;
+    font-family: myFirstFont;
+    color:#FFF;
+  font-size: 250%;
+
+  }
+  .singup-portal{
+  
+    margin: 40px 40px 40px 10px;
+    padding-left:10px;
+    
+    color:#FFF;
+    font-size: 30px;
+    font-family: myFirstFont;
+  }
+  .sp-color{
+    color: #ffa94d;
+  }
+  input{
+    display:flex;
+    flex-direction: column;
+    width:200px;
+    padding:10px;
+ box-sizing: border-box;
+  }
+  .button{
+    display: inline;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #ffa94d;
+  }
+  
+  
+    
+  
+  
+  
